@@ -9,7 +9,7 @@ export const defaultLimit = 10;
 
 export const contact = {
   email: ["karnatakafightscorona@gmail.com"],
-  whatsapp: ["9480850031/9480850033", "8750971717 (Help Desk)"],
+  whatsapp: ["WhatsApp COVID to 8095500118"],
 };
 
 export const specLink =

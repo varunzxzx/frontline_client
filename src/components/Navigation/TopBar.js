@@ -63,7 +63,7 @@ const TopBar = ({ loggedIn, user }) => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://www.dropbox.com/sh/4hpvld7ky4ofx3a/AABEQkjKgovLsjOBU1wBWVE5a?dl=0"
+              href="https://drive.google.com/drive/folders/1LxK0qZkwQnntRL-PASipOvHWYemjpMLI"
             >
               <StarOutlined />
               <span className="nav-text">Awareness</span>

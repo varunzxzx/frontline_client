@@ -2,7 +2,11 @@ import React from "react";
 import { Row, Col } from "antd";
 import { contact } from "@utils/constants";
 
-import { MailOutlined, GithubOutlined } from "@ant-design/icons";
+import {
+  WhatsAppOutlined,
+  MailOutlined,
+  GithubOutlined,
+} from "@ant-design/icons";
 
 const Footer = (props) => {
   const style = {};
@@ -34,7 +38,7 @@ const Footer = (props) => {
 
         <Col span={20} className="footer-cell">
           <Row className="footer-box">
-            {/* <Col offset={1}>
+            <Col offset={1}>
               <span className="footer-icon">
                 <WhatsAppOutlined />
               </span>
@@ -43,7 +47,7 @@ const Footer = (props) => {
                   {x}
                 </span>
               ))}
-            </Col> */}
+            </Col>
             <Col offset={1}>
               <span className="footer-icon">
                 <MailOutlined />
