@@ -60,16 +60,11 @@ const TopBar = ({ loggedIn, user }) => {
           </SubMenu>
 
           <Menu.Item key="/notices">
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://drive.google.com/drive/folders/1LxK0qZkwQnntRL-PASipOvHWYemjpMLI"
-            >
+            <Link to="/awareness">
               <StarOutlined />
               <span className="nav-text">Awareness</span>
-            </a>
+            </Link>
           </Menu.Item>
-
           {/*
          <SubMenu icon={<StarOutlined />} title="Quick Links">
             <Menu.Item key="ql:womens_helpline">

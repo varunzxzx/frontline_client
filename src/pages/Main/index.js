@@ -20,11 +20,13 @@ import Logout from "./Logout";
 import LoginRequired from "./LoginRequired";
 import Demo from "./Demo";
 import Authorize, { Fallback } from "@components/Authorize";
+import Volunteer from "@components/Content/Volunteer";
 
 const PrivacyPolicy = lazy(() => import("@components/Content/PrivacyPolicy"));
 const Terms = lazy(() => import("@components/Content/Terms"));
 const About = lazy(() => import("@components/Content/About"));
 const Notices = lazy(() => import("@components/Content/Notices"));
+const Appeals = lazy(() => import("@components/Content/Appeals"));
 
 const TopBar = lazy(() => import("@components/Navigation/TopBar"));
 
@@ -67,8 +69,14 @@ function App({ loggedIn, user, volunteerCount }) {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/notices">
+          <Route path="/awareness">
             <Notices />
+          </Route>
+          <Route path="/appeals">
+            <Appeals />
+          </Route>
+          <Route path="/volunteer">
+            <Volunteer />
           </Route>
           <Route>
             <Layout>
