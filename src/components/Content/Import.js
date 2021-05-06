@@ -64,6 +64,10 @@ const Import = () => (
           </Col>
         </Row>
         <br />
+      </p>
+      <hr />
+      <h3>Related Documents</h3>
+      <p>
         <iframe
           src="https://drive.google.com/embeddedfolderview?id=1X8a-CFCfAooMdytfp5nXI6I7fJ9N0wWF#grid"
           style={{ width: "100%", height: "400px", border: "0" }}

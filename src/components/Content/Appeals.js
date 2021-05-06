@@ -20,6 +20,13 @@ const Appeals = () => (
         <a href="mailto:karnatakafightscorona@gmail.com">
           karnatakafightscorona@gmail.com
         </a>
+      </p>
+      <hr />
+      <h3>Import Application </h3>
+      <p>
+        Incase your entity/organization is planning on importing the required
+        good from other countries, please click on the below button to know more
+        details.
         <Row>
           <Col
             lg={24}
@@ -35,7 +42,10 @@ const Appeals = () => (
             </Link>
           </Col>
         </Row>
-        <hr />
+      </p>
+      <hr />
+      <h3>Related Appeal Documents</h3>
+      <p>
         <iframe
           src="https://drive.google.com/embeddedfolderview?id=1Ct1kfQENmG6OGapJw1Ztux_SsBLWn105#grid"
           style={{ width: "100%", height: "400px", border: "0" }}
