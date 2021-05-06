@@ -19,11 +19,6 @@ If you want to use the app for a differnt cause or authority, update the home pa
     npm install
     npm start
 
-## install from docker hub
-
-    docker pull kailashsankar/frontline_client:latest
-    docker run -d --restart=always --name=frontline_client -p 0.0.0.0:3000:80 kailashsankar/frontline_client:latest
-
 ## docker build
 
     docker build -t frontline_client:latest .
@@ -41,24 +36,6 @@ If you want to use the app for a differnt cause or authority, update the home pa
 
 [Contribution Guidelines](CONTRIBUTING.md)
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-
-<!-- prettier-ignore-start -->
-
-<!-- markdownlint-disable -->
-
-<table>
-  <tr>
-    <td align="center"><a href="https://wolfs-bane.herokuapp.com/"><img src="https://avatars0.githubusercontent.com/u/3972209?v=4" width="100px;" alt=""/><br /><sub><b>Kailash Sankar</b></sub></a><br /><a href="https://github.com/Kailash-Sankar/frontline_client/commits?author=Kailash-Sankar" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/kishorkumarj"><img src="https://avatars1.githubusercontent.com/u/3972218?v=4" width="100px;" alt=""/><br /><sub><b>Kishor K Jagadeesan</b></sub></a><br /><a href="https://github.com/Kailash-Sankar/frontline_client/commits?author=kishorkumarj" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/rtkanan"><img src="https://avatars3.githubusercontent.com/u/1004509?v=4" width="100px;" alt=""/><br /><sub><b>Kannan Nagarajan</b></sub></a><br /><a href="#projectManagement-rtkanan" title="Project Management">📆</a></td>
-    <td align="center"><a href="http://www.spykk.com"><img src="https://avatars2.githubusercontent.com/u/63699386?v=4" width="100px;" alt=""/><br /><sub><b>SPYKK APP LABS</b></sub></a><br /><a href="#projectManagement-SPYKKAPPLABS" title="Project Management">📆</a></td>
-    <td align="center"><a href="https://github.com/RajeeshVK"><img src="https://avatars3.githubusercontent.com/u/54164341?v=4" width="100px;" alt=""/><br /><sub><b>Rajeesh V K</b></sub></a><br /><a href="#design-RajeeshVK" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/vivekprocoder"><img src="https://avatars1.githubusercontent.com/u/1491268?v=4" width="100px;" alt=""/><br /><sub><b>vivek yadav</b></sub></a><br /><a href="#infra-vivekprocoder" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
-  </tr>
-</table>
 
 <!-- markdownlint-enable -->
 
