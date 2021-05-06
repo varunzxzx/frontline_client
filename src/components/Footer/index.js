@@ -64,7 +64,12 @@ const Footer = (props) => {
         </Col>
       </Row>
       <div style={{ textAlign: "center", backgroundColor: "rgb(29, 30, 34)" }}>
-        <a className="alt" href="https://github.com/varunzxzx/frontline_client">
+        <a
+          className="alt"
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/varunzxzx/frontline_client"
+        >
           Developed by Volunteers, SPYKK App Labs &amp; SAP Labs India, hosted
           by IIIT-B | Open sourced <GithubOutlined />
         </a>
