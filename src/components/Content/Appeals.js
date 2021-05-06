@@ -1,5 +1,7 @@
 import React from "react";
 import Wrapper from "./Wrapper";
+import { Row, Col, Button } from "antd";
+import { Link } from "react-router-dom";
 
 const Appeals = () => (
   <Wrapper>
@@ -18,9 +20,25 @@ const Appeals = () => (
         <a href="mailto:karnatakafightscorona@gmail.com">
           karnatakafightscorona@gmail.com
         </a>
+        <Row>
+          <Col
+            lg={24}
+            sm={24}
+            xs={24}
+            className="bottom-btn-containers-alt home-actions"
+            style={{ border: "0" }}
+          >
+            <Link to="/import-authorization">
+              <div className="goto-text">
+                <Button className="action-btn">Import Details</Button>
+              </div>
+            </Link>
+          </Col>
+        </Row>
+        <hr />
         <iframe
           src="https://drive.google.com/embeddedfolderview?id=1Ct1kfQENmG6OGapJw1Ztux_SsBLWn105#grid"
-          style={{ width: "100%", height: "600px", border: "0" }}
+          style={{ width: "100%", height: "400px", border: "0" }}
         ></iframe>
       </p>
     </div>

@@ -1,7 +1,10 @@
 import React from "react";
 import Wrapper from "./Wrapper";
+import { Link } from "react-router-dom";
 
-const Appeals = () => (
+import { Row, Col, Button } from "antd";
+
+const Import = () => (
   <Wrapper>
     <div>
       <center>
@@ -43,11 +46,27 @@ const Appeals = () => (
         <br></br>
         Ensure you have the key documents listed below and the Self Declaration
         form, and then fill-out and submit the application form. If you have any
-        questions you can reach out to us at:
+        questions you can reach out to us at: &nbsp;
         <a href="mailto:importnodal.kar@gmail.com">importnodal.kar@gmail.com</a>
+        <Row>
+          <Col
+            lg={24}
+            sm={24}
+            xs={24}
+            className="bottom-btn-containers-alt home-actions"
+            style={{ border: "0" }}
+          >
+            <Link to="/import-authorization-form">
+              <div className="goto-text">
+                <Button className="action-btn">Import Application Form</Button>
+              </div>
+            </Link>
+          </Col>
+        </Row>
+        <br />
         <iframe
           src="https://drive.google.com/embeddedfolderview?id=1X8a-CFCfAooMdytfp5nXI6I7fJ9N0wWF#grid"
-          style={{ width: "100%", height: "600px", border: "0" }}
+          style={{ width: "100%", height: "400px", border: "0" }}
         ></iframe>
       </p>
     </div>
