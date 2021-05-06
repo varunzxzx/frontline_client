@@ -23,6 +23,7 @@ import Authorize, { Fallback } from "@components/Authorize";
 import Volunteer from "@components/Content/Volunteer";
 import Import from "@components/Content/Import";
 import ImportForm from "@components/Content/Import-Form";
+import Resource from "@components/Content/Resource";
 
 const PrivacyPolicy = lazy(() => import("@components/Content/PrivacyPolicy"));
 const Terms = lazy(() => import("@components/Content/Terms"));
@@ -85,6 +86,9 @@ function App({ loggedIn, user, volunteerCount }) {
           </Route>
           <Route path="/import-authorization-form">
             <ImportForm />
+          </Route>
+          <Route path="/resources">
+            <Resource />
           </Route>
           <Route>
             <Layout>

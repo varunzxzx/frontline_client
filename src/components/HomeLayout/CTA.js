@@ -44,18 +44,14 @@ function CTA(props) {
           </Link>
         </Col>
         <Col lg={12} sm={24} xs={24} className="bottom-btn-containers-alt">
-          <a
-            rel="noreferrer"
-            target="_blank"
-            href="https://bit.ly/covidresourceskargov"
-          >
+          <Link to="/resources">
             <div className="goto-text">
               <Button className="action-btn">
                 <img className="action-img" src={resourceIco} />
                 COVID RESOURCE DIRECTORY
               </Button>
             </div>
-          </a>
+          </Link>
         </Col>
       </Row>
     </>

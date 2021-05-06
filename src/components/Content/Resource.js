@@ -8,17 +8,19 @@ class Resource extends Component {
 
   render() {
     return (
-      <Wrapper>
+      <Wrapper notHome>
         <div>
-          <p>
-            <div style={{ minWidth: "98vw" }}></div>
-            <iframe
-              class="responsive-iframe"
-              src="https://script.google.com/macros/s/AKfycbyHGh-AisJVBuqfZ4pfSqu001AE6JetStqpLL2xg74m-Wgdd5Ogh6yGVKG6gYuqnn1D0g/exec"
-            >
-              Loading…
-            </iframe>
-          </p>
+          <div style={{ minWidth: "98vw" }}></div>
+          <iframe
+            style={{ width: "100%" }}
+            height="2121"
+            frameBorder="0"
+            marginHeight="0"
+            marginWidth="0"
+            src="https://script.google.com/macros/s/AKfycbyHGh-AisJVBuqfZ4pfSqu001AE6JetStqpLL2xg74m-Wgdd5Ogh6yGVKG6gYuqnn1D0g/exec"
+          >
+            Loading…
+          </iframe>
         </div>
       </Wrapper>
     );
