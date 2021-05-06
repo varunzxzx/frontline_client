@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 
 import { Row, Col, Button } from "antd";
 
-import donateIco from "@images/donate_ico.png";
-import supportIco from "@images/support_ico.png";
-import volunteerIco from "@images/volunteer_ico.png";
+import donateIco from "@images/Donate@10x.png";
+import resourceIco from "@images/Resource@10x.png";
+import supportIco from "@images/Support@10x.png";
+import volunteerIco from "@images/Volunteer@10x.png";
 
 function CTA(props) {
   return (
@@ -50,7 +51,7 @@ function CTA(props) {
           >
             <div className="goto-text">
               <Button className="action-btn">
-                <img className="action-img" src={supportIco} />
+                <img className="action-img" src={resourceIco} />
                 COVID RESOURCE DIRECTORY
               </Button>
             </div>
