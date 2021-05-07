@@ -14,7 +14,11 @@ class ImportForm extends Component {
             <div style={{ minWidth: "98vw" }}></div>
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSd0BzPMgZAZXwfxTKNm248wUS73McoPVgOBwYM_FfRbxwgRwA/viewform?embedded=true"
-              style={{ width: "100%" }}
+              style={{
+                width: "100%",
+                "-webkit-overflow-scrolling": "touch",
+                "overflow-y": "scroll",
+              }}
               height="1000"
               frameBorder="0"
               marginHeight="0"

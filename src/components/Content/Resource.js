@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Wrapper from "./Wrapper";
-
+import "../../styles/resource.less";
 class Resource extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -12,7 +12,11 @@ class Resource extends Component {
         <div>
           <div style={{ minWidth: "98vw" }}></div>
           <iframe
-            style={{ width: "100%" }}
+            id="resources-iframe"
+            style={{
+              width: "100%",
+              "overflow-y": "scroll",
+            }}
             height="2121"
             frameBorder="0"
             marginHeight="0"
