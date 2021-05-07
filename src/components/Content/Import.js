@@ -50,7 +50,7 @@ const Import = () => (
         submit the application form. You will have to e-mail the required
         documents to:&nbsp;
         <a href="mailto:importnodal.kar@gmail.com">importnodal.kar@gmail.com</a>
-        , also use the same email for any queries or clarifications.
+        , also can use the same email-id for any queries or clarifications.
         <Row>
           <Col
             lg={24}
