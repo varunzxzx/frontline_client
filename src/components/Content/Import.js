@@ -44,6 +44,7 @@ const Import = () => (
           </li>
         </ul>
         <br></br>
+        <hr />
         Ensure you have the key documents listed in ANNEXURE-A and the Signed
         Self Declaration form (template available below), and then fill-out and
         submit the application form. You will have to e-mail the required
