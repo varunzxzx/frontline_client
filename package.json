@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Frontline client app",
   "main": "index.js",
+  "homepage": "http://varunzxzx.github.io/frontline_client",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
@@ -14,7 +15,9 @@
     "scan": "npm audit && npm outdated",
     "comply": "license-checker --summary",
     "comply:prod": "license-checker --summary --production",
-    "check-types": "tsc"
+    "check-types": "tsc",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Kailash Sankar",
@@ -81,6 +84,7 @@
     "eslint-plugin-react": "^7.19.0",
     "extract-css-chunks-webpack-plugin": "^4.7.5",
     "file-loader": "^6.0.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.3.0",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
