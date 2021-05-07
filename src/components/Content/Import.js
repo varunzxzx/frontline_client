@@ -44,10 +44,12 @@ const Import = () => (
           </li>
         </ul>
         <br></br>
-        Ensure you have the key documents listed below and the Self Declaration
-        form, and then fill-out and submit the application form. If you have any
-        questions you can reach out to us at: &nbsp;
+        Ensure you have the key documents listed in ANNEXURE-A and the Signed
+        Self Declaration form (template available below), and then fill-out and
+        submit the application form. You will have to e-mail the required
+        documents to:&nbsp;
         <a href="mailto:importnodal.kar@gmail.com">importnodal.kar@gmail.com</a>
+        , also use the same email for any queries or clarifications.
         <Row>
           <Col
             lg={24}
