@@ -21,7 +21,10 @@ class Resource extends Component {
             frameBorder="0"
             marginHeight="0"
             marginWidth="0"
-            src="https://script.google.com/macros/s/AKfycbyHGh-AisJVBuqfZ4pfSqu001AE6JetStqpLL2xg74m-Wgdd5Ogh6yGVKG6gYuqnn1D0g/exec"
+            src={
+              this.props.iframeSrc ||
+              "https://script.google.com/macros/s/AKfycbyHGh-AisJVBuqfZ4pfSqu001AE6JetStqpLL2xg74m-Wgdd5Ogh6yGVKG6gYuqnn1D0g/exec"
+            }
           >
             Loading…
           </iframe>

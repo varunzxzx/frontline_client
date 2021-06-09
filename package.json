@@ -20,7 +20,7 @@
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
-  "author": "Kailash Sankar",
+  "author": "varunzxzx",
   "repository": {
     "type": "git",
     "url": "https://github.com/Kailash-Sankar/frontline_client.git"

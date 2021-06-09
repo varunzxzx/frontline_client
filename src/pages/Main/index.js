@@ -24,6 +24,8 @@ import Volunteer from "@components/Content/Volunteer";
 import Import from "@components/Content/Import";
 import ImportForm from "@components/Content/Import-Form";
 import Resource from "@components/Content/Resource";
+import ResourceFinder from "./ResourceFinder";
+import InformationCenter from "./InformationCenter";
 
 const PrivacyPolicy = lazy(() => import("@components/Content/PrivacyPolicy"));
 const Terms = lazy(() => import("@components/Content/Terms"));
@@ -89,6 +91,12 @@ function App({ loggedIn, user, volunteerCount }) {
           </Route>
           <Route path="/resources">
             <Resource />
+          </Route>
+          <Route path="/resource-finder">
+            <ResourceFinder />
+          </Route>
+          <Route path="/information-center/:page">
+            <InformationCenter />
           </Route>
           <Route>
             <Layout>

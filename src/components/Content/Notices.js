@@ -1,5 +1,8 @@
 import React from "react";
 import Wrapper from "./Wrapper";
+import { awarenessMaterial } from "@utils/constants";
+
+import "../../styles/awareness.less";
 
 // import { Table } from "antd";
 
@@ -48,10 +51,25 @@ const Notices = () => (
         Awareness, Vaccination, COVID Appropriate Behaviour (CAB), Mental Health
         Awareness and a lot more in the following languages. Please share this
         with your family and friends and let us fight COVID together.
-        <iframe
+        {/* <iframe
           src="https://drive.google.com/embeddedfolderview?id=1LxK0qZkwQnntRL-PASipOvHWYemjpMLI#grid"
           style={{ width: "100%", height: "600px", border: "0" }}
-        ></iframe>
+        ></iframe> */}
+        <div className="container">
+          <div className="row">
+            {awarenessMaterial.map((item) => (
+              <div key={item.title} className="col-md-4">
+                <a href={item.link} target="_blank" rel="noreferrer">
+                  <div
+                    style={{ backgroundPositionY: item.logoRelativePosition }}
+                    className="grid-icon"
+                  ></div>
+                  <div className="grid-title">{item.title}</div>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
       </p>
     </div>
   </Wrapper>
