@@ -1,5 +1,6 @@
 import React from "react";
 import Wrapper from "./Wrapper";
+// eslint-disable-next-line no-unused-vars
 import { awarenessMaterial } from "@utils/constants";
 
 import "../../styles/awareness.less";
@@ -51,11 +52,11 @@ const Notices = () => (
         Awareness, Vaccination, COVID Appropriate Behaviour (CAB), Mental Health
         Awareness and a lot more in the following languages. Please share this
         with your family and friends and let us fight COVID together.
-        {/* <iframe
+        <iframe
           src="https://drive.google.com/embeddedfolderview?id=1LxK0qZkwQnntRL-PASipOvHWYemjpMLI#grid"
           style={{ width: "100%", height: "600px", border: "0" }}
-        ></iframe> */}
-        <div className="container">
+        ></iframe>
+        {/* <div className="container">
           <div className="row">
             {awarenessMaterial.map((item) => (
               <div key={item.title} className="col-md-4">
@@ -69,7 +70,7 @@ const Notices = () => (
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </p>
     </div>
   </Wrapper>

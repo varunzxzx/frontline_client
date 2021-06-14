@@ -59,12 +59,6 @@ const TopBar = ({ loggedIn, user }) => {
             </Menu.Item>
           </SubMenu>
 
-          <Menu.Item key="/notices">
-            <Link to="/awareness">
-              <StarOutlined />
-              <span className="nav-text">Awareness</span>
-            </Link>
-          </Menu.Item>
           {/*
          <SubMenu icon={<StarOutlined />} title="Quick Links">
             <Menu.Item key="ql:womens_helpline">
