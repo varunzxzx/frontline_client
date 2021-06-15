@@ -33,9 +33,9 @@ class InformationCenter extends Component {
         <TabPane tab="AWARENESS MATERIAL" key="awareness-material">
           <Notices />
         </TabPane>
-        <TabPane tab="CHILDREN SUPPORT" key="children-support">
+        {/* <TabPane tab="CHILDREN SUPPORT" key="children-support">
           <Resource iframeSrc="https://script.google.com/macros/s/AKfycby8juAYkFJ-JhKcuhgpCc5zkpMn-u094XikY4MSykO90yRwNc03hHaBqbNEnSsM_p4E_Q/exec" />
-        </TabPane>
+        </TabPane> */}
       </Tabs>
     );
   }

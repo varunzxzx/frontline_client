@@ -11,7 +11,6 @@ import {
   HomeOutlined,
   SafetyOutlined,
   SettingOutlined,
-  StarOutlined,
   FileSearchOutlined,
   DeploymentUnitOutlined,
   FormOutlined,
